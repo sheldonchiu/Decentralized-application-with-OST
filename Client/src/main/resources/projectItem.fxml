@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+
+<?import org.kordamp.bootstrapfx.scene.layout.Panel?>
+<?import javafx.scene.control.Label?>
+
+<Panel styleClass="panel-info" onMouseClicked="#select" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectItemController">
+   <heading>
+       <VBox spacing = "5">
+           <Label fx:id="projectName" styleClass="h4" text=""/>
+           <Label fx:id="companyName" styleClass="h6" text=""/>
+       </VBox>
+   </heading>
+   <body>
+       <VBox spacing = "10">
+           <Label fx:id="category"/>
+           <Label fx:id="time"/>
+           <Label fx:id="status"/>
+       </VBox>
+   </body>
+</Panel>

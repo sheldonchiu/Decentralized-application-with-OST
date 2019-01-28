@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="buyController">
+    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Buy Token" textAlignment="CENTER">
+        <font>
+          <Font size="18.0"/>
+        </font>
+        <VBox.margin>
+          <Insets bottom="5.0" left="5.0" top="10.0"/>
+        </VBox.margin>
+    </Text>
+    <Separator prefWidth="200.0">
+        <VBox.margin>
+          <Insets top="5.0"/>
+        </VBox.margin>
+    </Separator>
+    <HBox prefHeight="100.0" prefWidth="200.0">
+        <VBox.margin>
+            <Insets top="30.0"/>
+        </VBox.margin>
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Amount:">
+            <font>
+                <Font size="14.0"/>
+            </font>
+            <HBox.margin>
+                <Insets left="5.0"/>
+            </HBox.margin>
+        </Text>
+        <TextField fx:id="buyAmount" alignment="CENTER" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="100.0">
+            <HBox.margin>
+                <Insets left="25.0"/>
+            </HBox.margin>
+        </TextField>
+    </HBox>
+    <Separator prefWidth="200.0">
+        <VBox.margin>
+          <Insets/>
+        </VBox.margin>
+    </Separator>
+    <Button fx:id="buyButton" mnemonicParsing="false" onAction="#buyConfirm" text="Confirm" textAlignment="CENTER">
+        <VBox.margin>
+          <Insets left="50.0" top="5.0"/>
+        </VBox.margin>
+    </Button>
+</VBox>

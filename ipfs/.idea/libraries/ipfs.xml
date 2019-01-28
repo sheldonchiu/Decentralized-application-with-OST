@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="ipfs">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/src/main/dist" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/src/main/dist" recursive="false" />
+  </library>
+</component>

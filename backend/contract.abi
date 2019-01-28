@@ -1,0 +1,81 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_projectAddress",
+				"type": "address"
+			},
+			{
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"name": "_hash",
+				"type": "string"
+			}
+		],
+		"name": "addEvidence",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_projectAddress",
+				"type": "address"
+			},
+			{
+				"name": "_hash",
+				"type": "string"
+			}
+		],
+		"name": "addProject",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"name": "projectAddress",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"name": "hash",
+				"type": "string"
+			}
+		],
+		"name": "recordProject",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"name": "projectAddress",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"name": "hash",
+				"type": "string"
+			}
+		],
+		"name": "recordEvidence",
+		"type": "event"
+	}
+]

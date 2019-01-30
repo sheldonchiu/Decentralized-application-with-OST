@@ -4,6 +4,6 @@
 
 System Structure:
 <p style="align:center">
-    <img src="/concept.png" alt="System Structure" style="width:25%"/>
+    <img src="/concept.png" alt="System Structure" style="width:1%"/>
 </p>
 

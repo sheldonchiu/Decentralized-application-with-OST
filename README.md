@@ -1,6 +1,25 @@
 # Decentralized application(Dapp) with OST platform
-*   Project deomo for ISOM3000B Blockchain Entrepreneurship for Social Impact    
+*   Project demo for ISOM3000B Blockchain Entrepreneurship for Social Impact    
 *   Simple prototype with limited amount of features
+
+<table>
+    <tr>
+        <td>Client</td>
+        <td>Java</td>
+    </tr>
+    <tr>
+        <td>Server</td>
+        <td>Go</td>
+    </tr>
+    <tr>
+        <td>Database</td>
+        <td>MongoDB</td>
+    </tr>
+    <tr>
+        <td>Smart Contract</td>
+        <td>Solidity</td>
+    </tr>
+</table>
 
 >Data flow and storage
 <p align="center">

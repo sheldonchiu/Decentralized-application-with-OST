@@ -32,6 +32,6 @@
 <p align="center">
     <a href="http://www.youtube.com/watch?feature=player_embedded&v=zOO-GfHyyQ8" target="_blank" >
         <img src="http://img.youtube.com/vi/zOO-GfHyyQ8/1.jpg" 
-        alt="Click to see the demo video" width="500"/>
+        alt="Click to see the demo video" width="500" border="5"/>
     </a>
 </p>

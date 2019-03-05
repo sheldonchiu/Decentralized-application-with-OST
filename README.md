@@ -21,6 +21,14 @@
     </tr>
 </table>
 
+Project Description:
+<ul>
+    <li>Branded token (the cryptocurrency wallet system)  provided by OST platform</li>
+    <li>Ethereum Smart Contract, which provides permanent and immutable storage for charity project information</li>
+    <li>Whenever a new project is submitted to the contract, a server built with Golang will automatically upload the project details to MongoDB for ease of access</li>
+    <li>Client side built with Java displays all the available projects in the database and users can donate cryptocurrency to those projects by purchasing branded token from the platform</li>
+</ul>
+
 >Data flow and storage
 <p align="center">
     <img src="./concept.png" alt="System Structure" width="500"/>

@@ -27,6 +27,7 @@ Project Description:
     <li>Ethereum Smart Contract, which provides permanent and immutable storage for charity project information</li>
     <li>Whenever a new project is submitted to the contract, a server built with Golang will automatically upload the project details to MongoDB for ease of access</li>
     <li>Client side built with Java displays all the available projects in the database and users can donate cryptocurrency to those projects by purchasing branded token from the platform</li>
+    <li>Charity can upload prove of progress to ipfs (blockcahin file storage), and the hash will be storage in the smart contract for reference.</li>
 </ul>
 
 >Data flow and storage
